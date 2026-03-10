@@ -4,12 +4,14 @@ import MouseTrail from './components/MouseTrail'
 import Navbar from './components/Navbar'
 import ScrollImageReveal from './components/ScrollImageReveal'
 import ScrollReveal from './components/ScrollReveal'
+import Wheel from './components/Wheel'
 import './style.css'
 
 
 function App() {
   return (
     <>
+      <Wheel/>
       <Navbar/>
       <div className='min-h-screen bg-neutral-950'></div>
       <Cube/>
@@ -17,6 +19,7 @@ function App() {
       <ImageReveal/>
       <MouseTrail/>
       <ScrollReveal/>
+
     </>
   )
 }
